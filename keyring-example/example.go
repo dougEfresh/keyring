@@ -10,7 +10,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/tmc/keyring"
+	"github.com/dougEfresh/keyring"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

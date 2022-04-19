@@ -1,6 +1,10 @@
+# Forked
+
+Forked from github.com/tmc/keyring to use updated https://github.com/godbus/dbus instead of https://github.com/guelfey/go.dbus
+
 # keyring provides cross-platform keychain access
 
-http://godoc.org/github.com/tmc/keyring
+http://godoc.org/github.com/dougEfresh/keyring
 
 Keyring provides a common interface to keyring/keychain tools.
 
@@ -38,8 +42,8 @@ Linux requirements:
 
 Tests on Linux:
 ```sh
- $ go test github.com/tmc/keyring
+ $ go test github.com/dougEfresh/keyring
  $ # for gnome-keyring provider
- $ go test -tags gnome_keyring github.com/tmc/keyring
+ $ go test -tags gnome_keyring github.com/dougEfresh/keyring
 ```
 
